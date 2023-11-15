@@ -5,9 +5,10 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="5.0.1" />
-    <PackageReference Include="Microsoft.KernelMemory.Client" Version="0.9.231113.2-preview+a5ac261" />
-    <PackageReference Include="Microsoft.KernelMemory.Core" Version="0.9.231113.2-preview+a5ac261" />
+    <PackageReference Include="Microsoft.KernelMemory.Client" Version="0.9.231114.1-preview+dd6c4ac" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.2.0" />
+    <PackageReference Include="System.Memory.Data" Version="8.0.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
